@@ -63,8 +63,20 @@
         //    long x = (long)o;
         //} 
         //catch { Console.WriteLine("Invalid cast from object to long"); }
-       
+
         // This code will throw an InvalidCastException at runtime because the object o is boxed with the value 10 (which is an int),
         #endregion
-        }
+
+        #region Q8:
+        //Q8: Fix this to avoid exceptions and print -1 if conversion isn’t possible?
+        //object o = 10;
+        //long x = o;
+        //Console.WriteLine(x);
+        //answer
+        //object o = 10;
+        //long x = (o is int i) ? i : (o is long l ? l : -1);
+
+        //Console.WriteLine(x);
+        #endregion
+    }
 }
