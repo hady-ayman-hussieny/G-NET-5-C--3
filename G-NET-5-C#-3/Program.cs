@@ -78,5 +78,13 @@
 
         //Console.WriteLine(x);
         #endregion
+
+        #region Q9:
+        //Q9: What will this print and explain why ?
+        //string? name = null;
+        //Console.WriteLine(name?.Length);
+        //This code will print nothing an empty blank output
+        // because the null operator (?.) is used to access the Length property of variable.
+        #endregion
     }
 }
