@@ -105,5 +105,19 @@
         //we can solve it by using int.TryParse not int.Parse to avoid exceptions
         //if the string cannot be parsed to integer.
         #endregion
+
+        #region Q12:
+        //Q12: What happens here and if there is a problem, handle it
+        //string? s = null;
+        //Console.WriteLine(s!.Length);
+        // This code will throw a NullReferenceException at runtime
+        //we can handle it by checking if s is null before accessing its Length property, like this:
+        //string? s = null;
+        //if (s != null)
+        //{
+        //    Console.WriteLine(s.Length);
+        //}
+        //Console.WriteLine(s);
+        #endregion
     }
 }
