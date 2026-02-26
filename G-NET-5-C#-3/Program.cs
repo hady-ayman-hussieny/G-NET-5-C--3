@@ -2,9 +2,14 @@
 {
      static void Main(string[] args)
     {
-       //Q1: What will this print and explain what happens ?
-        double d = 9.99;
-        int x = (int)d;
-        Console.WriteLine(x);//9
+        #region Q1:
+        //Q1: What will this print and explain what happens ?
+        //double d = 9.99;
+        //int x = (int)d;
+        //Console.WriteLine(x);//9
+        // output will be 9 becuse when we cast a double to an int,
+        // it truncates the decimal part and only keeps the whole number part.
+        // So, 9.99 becomes 9 when cast to an int. 
+        #endregion
     }
 }
