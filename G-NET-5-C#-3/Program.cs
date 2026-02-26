@@ -21,5 +21,12 @@
         //becase we need to make sure that the division is performed as a floating-point
         //Console.WriteLine(d2); 
         #endregion
+
+        #region Q3:
+        //Q3: You read a number from user input .. Write the correct line to get age as int.
+        //Console.WriteLine("please enter your age");
+        //int age = int.Parse(Console.ReadLine());
+        //Console.WriteLine($"your age is {age}");
+        #endregion
     }
 }
