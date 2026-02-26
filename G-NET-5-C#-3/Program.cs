@@ -86,5 +86,14 @@
         //This code will print nothing an empty blank output
         // because the null operator (?.) is used to access the Length property of variable.
         #endregion
+
+        #region Q10:
+        //Q10: What will this print and explain the process?
+        //string? name2 = null;
+        //int length = name2?.Length ?? 0;
+        // This code will not  print anything becuse there is no console.writeline 
+        //but if we add Console.WriteLine(length); it will print 0 because null operator
+        //used to provide a default value witch is 0
+        #endregion
     }
 }
