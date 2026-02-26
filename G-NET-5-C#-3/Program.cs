@@ -35,7 +35,15 @@
         //int x = int.Parse(s);
         //Console.WriteLine(x);
         // This code will throw a FormatException at runtime because the string "12a" cannot be parsed into an int.
-        
+
+        #endregion
+
+        #region Q5:
+        //Q5: Complete the code from the previous question so it prints Invalid if conversion into int fails,
+        //otherwise prints the number
+        //string s = "12a";
+        //try { int x = int.Parse(s); }
+        //catch (FormatException) { Console.WriteLine("Invalid"); }
         #endregion
     }
 }
