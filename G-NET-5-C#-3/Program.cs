@@ -119,5 +119,13 @@
         //}
         //Console.WriteLine(s);
         #endregion
+
+        #region Q13:
+        //Q13: What will this print?
+        //string? s = null;
+        //int x = Convert.ToInt32(s);
+        //Console.WriteLine(x);
+        // This code will print 0 because Convert.ToInt32 method returns 0 when the input string is null.
+        #endregion
     }
 }
