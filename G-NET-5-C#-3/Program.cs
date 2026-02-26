@@ -11,5 +11,15 @@
         // it truncates the decimal part and only keeps the whole number part.
         // So, 9.99 becomes 9 when cast to an int. 
         #endregion
+
+        #region Q2:
+
+        //Q2: This code doesn’t compile. Fix it with the smallest change?
+        //int n = 5;
+        //double d2 = n / 2;
+        // code need double d2 = n / 2.0;
+        //becase we need to make sure that the division is performed as a floating-point
+        //Console.WriteLine(d2); 
+        #endregion
     }
 }
