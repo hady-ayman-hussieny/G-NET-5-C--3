@@ -54,5 +54,17 @@
         // output will be 11 because the object o is boxed with the value 10,
         // and when we unbox it to an int, we get  value 10. Then we add 1.
         #endregion
-    }
+
+        #region Q7:
+        //Q7: What will this print and explain why and if there is a problem handle it ?
+        //object o = 10;
+        //try 
+        //{
+        //    long x = (long)o;
+        //} 
+        //catch { Console.WriteLine("Invalid cast from object to long"); }
+       
+        // This code will throw an InvalidCastException at runtime because the object o is boxed with the value 10 (which is an int),
+        #endregion
+        }
 }
