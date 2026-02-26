@@ -45,5 +45,14 @@
         //try { int x = int.Parse(s); }
         //catch (FormatException) { Console.WriteLine("Invalid"); }
         #endregion
+
+        #region Q6:
+        //Q6: What will this print and explain why ?
+        //object o = 10;
+        //int a = (int)o;
+        //Console.WriteLine(a + 1);
+        // output will be 11 because the object o is boxed with the value 10,
+        // and when we unbox it to an int, we get  value 10. Then we add 1.
+        #endregion
     }
 }
