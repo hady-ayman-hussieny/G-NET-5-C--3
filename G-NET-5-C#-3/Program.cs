@@ -127,5 +127,17 @@
         //Console.WriteLine(x);
         // This code will print 0 because Convert.ToInt32 method returns 0 when the input string is null.
         #endregion
+
+        #region Q14:
+        //Q14: Compare results and explain each result :
+        //string? s = null;
+        // A
+        // int a = int.Parse(s);
+        // B
+        //int b = Convert.ToInt32(s);
+        //Console.WriteLine(b);
+        // A will throw a FormatException at runtime because int.Parse cannot parse a null string.
+        // B will print 0 because Convert.ToInt32 method returns 0 when the input string is null.
+        #endregion
     }
 }
