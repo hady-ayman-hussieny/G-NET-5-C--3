@@ -28,5 +28,14 @@
         //int age = int.Parse(Console.ReadLine());
         //Console.WriteLine($"your age is {age}");
         #endregion
+
+        #region Q4:
+        //Q4: What happens here and why?
+        //string s = "12a";
+        //int x = int.Parse(s);
+        //Console.WriteLine(x);
+        // This code will throw a FormatException at runtime because the string "12a" cannot be parsed into an int.
+        
+        #endregion
     }
 }
