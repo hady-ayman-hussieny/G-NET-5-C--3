@@ -95,5 +95,15 @@
         //but if we add Console.WriteLine(length); it will print 0 because null operator
         //used to provide a default value witch is 0
         #endregion
+
+        #region Q11:
+        //Q11: What’s wrong with this “safe” code and how can we solve it ?
+        //string? s = null;
+        //int x = int.Parse(s ?? "0");
+        //Console.WriteLine(x);
+        //The code you provided isn't technically "broken" in terms of logic
+        //we can solve it by using int.TryParse not int.Parse to avoid exceptions
+        //if the string cannot be parsed to integer.
+        #endregion
     }
 }
