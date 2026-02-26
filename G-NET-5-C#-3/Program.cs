@@ -139,5 +139,12 @@
         // A will throw a FormatException at runtime because int.Parse cannot parse a null string.
         // B will print 0 because Convert.ToInt32 method returns 0 when the input string is null.
         #endregion
+
+        #region Q15:
+        ////Q15: Complete the line to print "Guest" when user is null, otherwise print the user name in uppercase:
+        //string? user = null;
+        // Console.WriteLine(user?.ToUpper() ?? "Guest");
+
+        #endregion
     }
 }
